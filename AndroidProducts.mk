@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 ArrowOS
+# Copyright (C) 2020 ShapeshiftOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_miatoll.mk
+    $(LOCAL_DIR)/ssos_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_miatoll-user \
-    arrow_miatoll-userdebug \
-    arrow_miatoll-eng
+    ssos_miatoll-user \
+    ssos_miatoll-userdebug \
+    ssos_miatoll-eng
